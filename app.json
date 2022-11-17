@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "BussolaRobotica",
+    "description": "Um simples bussola usando react native",
+    "slug": "BussolaRobotica",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "org.gui.compass"
+    },
+    "android": {
+      "package": "org.gui.compass"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33565d69-ed35-4337-b2be-9092a828d8df"
+      }
+    }
+  }
+}
